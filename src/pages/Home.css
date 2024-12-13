@@ -1,0 +1,29 @@
+/* Import the DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;300;400;500;700&display=swap');
+/* Importing Manrope font (if using Google Fonts, this can be in index.html instead) */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap');
+ 
+/* Custom class to use Manrope font */
+.manrope-header {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500; /* You can adjust the weight (200-800) */
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+/* Custom class for DM Sans font */
+.dm-sans-font {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;  /* You can change this based on your needs (100 to 700) */
+  font-style: normal;
+  font-size: 25;
+}
+
+/* Optional: Add more custom styles for better typography */
+h1, h2, h3, p {
+  line-height: 1; /* Adjust line-height for readability */
+}
+/* Custom background color for a section */
+.custom-bg {
+  background-color: #0f0f0f; /* Light gray background color */
+}
